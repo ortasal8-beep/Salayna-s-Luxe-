@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Salayna Luxe Cleaning — Trustworthy, Luxurious Home Care</title>
+  <meta name="description" content="Premium, trustworthy house cleaning in North County San Diego. Simple booking, clear pricing, and glowing reviews." />
+  <meta name="theme-color" content="#4c7df3" />
+
+  <!-- SEO / LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Salayna Luxe Cleaning",
+    "description": "Trustworthy, luxurious home cleaning with simple booking.",
+    "areaServed": "North County San Diego",
+    "telephone": "+1-442-248-0441",
+    "priceRange": "$$",
+    "founder": { "@type": "Person", "name": "Salayna Orta" },
+    "url": "",
+    "email": "ortasal8@gmail.com",
+    "serviceType": ["Standard Clean", "Deep Clean", "Move-In/Move-Out"],
+    "openingHours": "Mo-Sa 09:00-18:00"
+  }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; }
+    :root {
+      --bg: #ffffff; --text: #1d1d1f; --muted: #5f6470;
+      --accent: #4c7df3; --accent-2: #0ea5e9; --card: #f6f7fb;
+      --ring: rgba(76,125,243,.35); --radius: 14px; --shadow: 0 10px 30px rgba(0,0,0,.08);
+    }
+    html, body { margin: 0; background: var(--bg); color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height: 1.6; }
+    a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+    header { position: sticky; top: 0; z-index: 50; backdrop-filter: saturate(180%) blur(8px);
+      background: rgba(255,255,255,.85); border-bottom: 1px solid #e9ebf3; }
+    .nav { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .brand { display: flex; align-items: center; gap: 12px; font-weight: 800; letter-spacing:.3px; }
+    .logo { width: 36px; height: 36px; border-radius: 10px; box-shadow: var(--shadow); display: grid; place-items: center;
+      background: radial-gradient(120% 140% at 0% 0%, var(--accent), var(--accent-2)); }
+    .logo svg { width: 26px; height: 26px; }
+    .nav a { margin-left: 18px; font-weight: 600; color: var(--text); } .nav a.muted { color: var(--muted); font-weight: 500; }
+    .button { display: inline-block; padding: 12px 18px; border-radius: 12px; font-weight: 700; border: 1px solid #cfd6ea; background: #fff; }
+    .button.primary { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #fff; border: none; box-shadow: var(--shadow); }
+
+    .hero { padding: 64px 0 28px; }
+    .hero-card { position: relative; background: var(--card); border: 1px solid #e9ebf3; border-radius: var(--radius);
+      padding: 40px; display: grid; grid-template-columns: 1.2fr 1fr; gap: 28px; align-items: center; box-shadow: var(--shadow); overflow: hidden; }
+    .hero h1 { font-size: clamp(28px, 4vw, 42px); line-height: 1.15; margin: 0 0 8px; }
+    .hero p.lead { margin: 0 0 18px; color: var(--muted); font-size: 1.05rem; }
+    .badge { display: inline-flex; gap: 8px; align-items: center; font-weight: 700; background: #fff; color: #0f172a; border: 1px solid #e5e7eb; padding: 6px 10px; border-radius: 999px; }
+    .illus { border-radius: 16px; border: 1px solid #e9ebf3; overflow: hidden; background: #fff; }
+
+    section { padding: 48px 0; }
+    h2 { font-size: clamp(22px, 3vw, 32px); margin: 0 0 18px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .card { background: #fff; border: 1px solid #e9ebf3; border-radius: 14px; padding: 18px; box-shadow: var(--shadow); }
+    .card h3 { margin-top: 0; }
+    .muted { color: var(--muted); }
+    .price { font-size: 28px; font-weight: 800; }
+    .small { font-size: .9rem; color: var(--muted); }
+
+    form { display: grid; gap: 12px; background: #fff; border:1px solid #e9ebf3; border-radius: 14px; padding: 18px; box-shadow: var(--shadow); }
+    label { font-weight: 600; }
+    input, select, textarea { width: 100%; padding: 12px; border-radius: 10px; border: 1px solid #cfd6ea; background: #fff; outline: none; transition: box-shadow .15s ease, border-color .15s ease; font: inherit; }
+    input:focus, select:focus, textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 4px var(--ring); }
+    .inline { display: grid; grid-template-columns: repeat(2,1fr); gap: 12px; }
+
+    footer { padding: 36px 0; color: var(--muted); border-top: 1px solid #e9ebf3; text-align: center; }
+    .hidden { display: none !important; }
+
+    @media (max-width: 860px) { .hero-card { grid-template-columns: 1fr; } .grid { grid-template-columns: 1fr; } .inline { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">
+          <!-- Inline SVG monogram 'SL' -->
+          <svg viewBox="0 0 64 64" role="img" aria-label="Salayna Luxe Cleaning logo">
+            <defs><filter id="shadow"><feDropShadow dx="0" dy="1" stdDeviation="1" flood-opacity=".25"/></filter></defs>
+            <rect x="2" y="2" width="60" height="60" rx="12" fill="none"/>
+            <text x="50%" y="54%" text-anchor="middle" font-size="28" font-family="Georgia, 'Times New Roman', serif" fill="#ffffff" filter="url(#shadow)">SL</text>
+          </svg>
+        </div>
+        <div>Salayna Luxe Cleaning</div>
+      </div>
+      <nav class="links">
+        <a href="#services" class="muted">Services</a>
+        <a href="#pricing" class="muted">Pricing</a>
+        <a href="#testimonials" class="muted">Reviews</a>
+        <a href="#book" class="button">Book</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-card">
+        <div>
+          <span class="badge">✨ Trusted • Insured • Pet-friendly</span>
+          <h1>Trustworthy, luxurious home care—on your schedule.</h1>
+          <p class="lead">Hi, I’m <strong>Salayna Orta</strong>. I deliver meticulous, hotel-grade cleaning with a friendly touch. Get an instant booking and clear, upfront pricing in North County San Diego.</p>
+          <div class="cta-row">
+            <a href="#book" class="button primary">Book a clean</a>
+            <a href="#pricing" class="button">See pricing</a>
+          </div>
+        </div>
+
+        <!-- Minimalist, embedded SVG illustration of a perfectly organized living room -->
+        <figure class="illus" aria-label="Organized, spotless living room illustration">
+          <svg viewBox="0 0 720 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle heroDesc">
+            <title id="heroTitle">Clean and Organized Home</title>
+            <desc id="heroDesc">Minimalist illustration of a bright, tidy living room with shelving, sofa, rug and plants.</desc>
+            <defs>
+              <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ecf3ff"/><stop offset="1" stop-color="#f7fbff"/></linearGradient>
+              <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity=".18"/></filter>
+            </defs>
+            <rect width="720" height="540" fill="url(#g1)"/>
+            <rect x="60" y="80" width="600" height="8" fill="#d9e2f7"/>
+            <rect x="60" y="160" width="600" height="8" fill="#d9e2f7"/>
+            <rect x="80" y="90" width="40" height="60" fill="#b7cdf7"/>
+            <rect x="130" y="90" width="30" height="60" fill="#a4c3f7"/>
+            <rect x="170" y="90" width="55" height="60" fill="#d6e4ff"/>
+            <circle cx="255" cy="120" r="18" fill="#ffd166"/>
+            <rect x="290" y="95" width="36" height="55" fill="#9ae6b4"/>
+            <rect x="520" y="95" width="80" height="50" fill="#fff" stroke="#d7dfee"/>
+            <rect x="610" y="95" width="40" height="40" fill="#fff" stroke="#d7dfee"/>
+            <rect x="150" y="270" width="420" height="110" rx="20" fill="#ffffff" stroke="#e3e8f5" filter="url(#s)"/>
+            <rect x="170" y="250" width="180" height="40" rx="12" fill="#ffffff" stroke="#e3e8f5" filter="url(#s)"/>
+            <rect x="370" y="250" width="180" height="40" rx="12" fill="#ffffff" stroke="#e3e8f5" filter="url(#s)"/>
+            <rect x="200" y="295" width="110" height="55" rx="10" fill="#ebf1ff"/>
+            <rect x="330" y="295" width="110" height="55" rx="10" fill="#e6f7f3"/>
+            <rect x="460" y="295" width="80" height="55" rx="10" fill="#fff1c7"/>
+            <rect x="560" y="300" width="16" height="70" fill="#ccdfc9"/>
+            <path d="M 568 300 q -40 -40 0 -70 q 40 30 0 70" fill="#9ae6b4"/>
+            <path d="M 568 330 q -30 -35 0 -55 q 30 25 0 55" fill="#86efac"/>
+            <rect x="140" y="400" width="440" height="60" rx="12" fill="#edf2ff"/>
+            <rect x="120" y="330" width="20" height="50" fill="#e8eefc"/>
+            <rect x="120" y="320" width="40" height="10" fill="#e8eefc"/>
+          </svg>
+        </figure>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <div class="grid">
+        <div class="card"><h3>Standard Clean</h3><p class="muted">Kitchen, bathrooms, dusting, vacuum & mop, surfaces, and tidy-up.</p><p class="small">Ideal for upkeep (weekly/bi-weekly).</p></div>
+        <div class="card"><h3>Deep Clean</h3><p class="muted">Baseboards, inside cabinets, grout attention, light fixtures, and more detail.</p><p class="small">Recommended every 3–6 months.</p></div>
+        <div class="card"><h3>Move-In / Move-Out</h3><p class="muted">Top-to-bottom refresh for empty homes & apartments, ready for keys or photos.</p><p class="small">Add-ons: inside oven/fridge, interior windows, laundry.</p></div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h2>Simple, Competitive Pricing</h2>
+      <div class="grid">
+        <div class="card"><h3>Studio / 1 Bed</h3><div class="price">$139<span class="small"> / visit</span></div><p class="small">Standard clean • Deep clean from $209</p><p class="small">Weekly: $129 · Bi-weekly: $135</p></div>
+        <div class="card"><h3>2–3 Bed</h3><div class="price">$179<span class="small"> / visit</span></div><p class="small">Standard clean • Deep clean from $269</p><p class="small">Weekly: $169 · Bi-weekly: $175</p></div>
+        <div class="card"><h3>4+ Bed</h3><div class="price">$239<span class="small"> / visit</span></div><p class="small">Standard clean • Deep clean from $349</p><p class="small">Weekly: $225 · Bi-weekly: $235</p></div>
+      </div>
+      <p class="small">Add-ons: Oven $35 • Fridge $35 • Inside cabinets $45 • Interior windows (per room) $20 • Laundry (per load) $15.</p>
+      <p class="small">All supplies included. Pet-friendly. Transparent, no-surprise pricing.</p>
+    </section>
+
+    <section id="testimonials">
+      <h2>Happy Clients</h2>
+      <div class="grid">
+        <div class="card"><div class="stars">★★★★★</div><p class="quote">“Our place has never felt this fresh. Salayna is punctual, kind, and detail-obsessed.”</p><p class="small">— A. Nguyen</p></div>
+        <div class="card"><div class="stars">★★★★★</div><p class="quote">“Great communication and beautiful work. Booking was super easy.”</p><p class="small">— R. Martinez</p></div>
+        <div class="card"><div class="stars">★★★★★</div><p class="quote">“The deep clean was worth every penny. Sparkling!”</p><p class="small">— J. Patel</p></div>
+      </div>
+    </section>
+
+    <section id="book">
+      <h2>Book a Clean</h2>
+      <p class="muted">This version works on <strong>GitHub Pages</strong>. By default it opens your email app (mailto). To use an online form backend, swap the <code>action</code> with a service like Formspree.</p>
+      <!-- MAILTO fallback (works anywhere). NOTE: This opens the visitor's email app.
+           To switch to Formspree later, replace action with your endpoint, e.g.:
+           <form action="https://formspree.io/f/xxxxxx" method="POST"> -->
+      <form action="mailto:ortasal8@gmail.com" method="POST" enctype="text/plain" id="booking-form">
+        <div class="inline">
+          <div><label for="name">Full Name</label><input id="name" name="name" required placeholder="Your name" /></div>
+          <div><label for="email">Email</label><input id="email" type="email" name="email" required placeholder="you@example.com" /></div>
+        </div>
+        <div class="inline">
+          <div><label for="phone">Phone</label><input id="phone" name="phone" value="442-248-0441" /></div>
+          <div><label for="service">Service</label><select id="service" name="service"><option>Standard Clean</option><option>Deep Clean</option><option>Move-In / Move-Out</option></select></div>
+        </div>
+        <div class="inline">
+          <div><label for="bedrooms">Bedrooms</label><select id="bedrooms" name="bedrooms"><option>Studio</option><option>1</option><option>2</option><option>3</option><option>4+</option></select></div>
+          <div><label for="bathrooms">Bathrooms</label><select id="bathrooms" name="bathrooms"><option>1</option><option>2</option><option>3+</option></select></div>
+        </div>
+        <div><label for="date">Preferred Date</label><input id="date" type="date" name="date" /></div>
+        <div><label for="address">Service Address</label><input id="address" name="address" placeholder="Street, City" /></div>
+        <div><label for="notes">Notes</label><textarea id="notes" name="notes" rows="4" placeholder="Access instructions, pets, priorities..."></textarea></div>
+        <button class="button primary" type="submit">Email me your request</button>
+        <p class="small" style="margin-top:10px">Prefer texting? <a href="sms:+14422480441">Text me at 442-248-0441</a></p>
+        <p class="small">Or email: <a href="mailto:ortasal8@gmail.com">ortasal8@gmail.com</a></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Salayna Luxe Cleaning · North County San Diego ·
+        <a href="mailto:ortasal8@gmail.com">ortasal8@gmail.com</a> · <a href="sms:+14422480441">442-248-0441</a></p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
